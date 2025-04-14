@@ -13,6 +13,7 @@ abstract contract StdAssertions {
     event log_address(address);
     event log_bytes32(bytes32);
     event log_int(int256);
+    event log_int(int128);
     event log_uint(uint256);
     event log_bytes(bytes);
     event log_string(string);
