@@ -231,6 +231,7 @@ contract GamingNFTMarketplace is ERC721, ReentrancyGuard, Ownable {
 
         marketItems[tokenId] = MarketItem({
             tokenId: tokenId,
+            address: msg.address,
             seller: msg.sender,
             owner: address(this),
             price: price,
